@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Salut c'est moi Romain, j'suis le casse couilles malin.... 
+	Salut c'est moi Romain, j'suis le casse couilles malin.... Evidemment, j'ai mis les pieds dedans...
 </body>
 </html>
