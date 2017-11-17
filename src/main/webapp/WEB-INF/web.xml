@@ -4,4 +4,34 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SigridServlet</servlet-name>
+  	<display-name>SigridServlet</display-name>
+  	<description></description>
+  	<servlet-class>web.SigridServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RomainServlet</servlet-name>
+  	<display-name>RomainServlet</display-name>
+  	<description></description>
+  	<servlet-class>web.RomainServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SebServlet</servlet-name>
+  	<display-name>SebServlet</display-name>
+  	<description></description>
+  	<servlet-class>web.SebServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SigridServlet</servlet-name>
+  	<url-pattern>/Sigrid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RomainServlet</servlet-name>
+  	<url-pattern>/Romain</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SebServlet</servlet-name>
+  	<url-pattern>/Seb</url-pattern>
+  </servlet-mapping>
 </web-app>
